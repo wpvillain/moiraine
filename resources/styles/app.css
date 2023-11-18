@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu-toggle:checked + #menu {
+    display: block;
+}
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hover\:grow {
+    transition: all 0.3s;
+    transform: scale(1);
+}
+
+.hover\:grow:hover {
+    transform: scale(1.02);
+}
+
+.wp-block-button__link {
+    border-radius: 0;
+}
+
+/*---------------------------------------------------
+* WooCommerce
+----------------------------------------------------*/
+
+
+/* Home Products Collection 4 column Responsive Tweaks */
+
+@media (max-width: 1024px) {
+     
+    .is-flex-container.columns-4.wc-block-product-template.wp-block-woocommerce-product-template.is-layout-flow.wp-block-product-template-is-layout-flow li{
+       width: 30%;
+       margin-right: 0;
+       float: none;
+    }
+
+     
+ }
+
+ @media (max-width: 768px) {
+
+    .is-flex-container.columns-4.wc-block-product-template.wp-block-woocommerce-product-template.is-layout-flow.wp-block-product-template-is-layout-flow li{
+        width: 48%;
+        margin-right: 0;
+        float: none;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .is-flex-container.columns-4.wc-block-product-template.wp-block-woocommerce-product-template.is-layout-flow.wp-block-product-template-is-layout-flow li{
+        width: 100%;
+        margin-right: 0;
+        float: none;
+    }
+}
