@@ -1,7 +1,7 @@
 <article @php(post_class())>
   <header>
-    <h2 class="entry-title">
-        <a href="{{ get_permalink() }}">
+    <h2 class="entry-title mb-2">
+        <a href="{{ get_permalink() }}" class="text-lg font-bold">
           {!! $title !!}
         </a>
       </h2>
