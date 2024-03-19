@@ -10,7 +10,7 @@
 
     <div class="container min-h-screen">
       <main id="main" class="main bg-white px-8">
-        <div class="container py-8 px-6 mx-auto">
+        <div class="container py-8 px-6">
           @yield('content')
         </div>
       </main>

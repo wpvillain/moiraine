@@ -1,6 +1,8 @@
+@if (!is_home())
 <time class="dt-published" datetime="{{ get_post_time('c', true) }}">
   {{ get_the_date() }}
 </time>
+@endif
 
 <p>
   <span>{{ __('By', 'sage') }}</span>
