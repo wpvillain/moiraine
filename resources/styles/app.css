@@ -59,7 +59,9 @@
     }
 }
 
-/* Comments */
+/*---------------------------------------------------
+* Comments
+----------------------------------------------------*/
 
 /* Style for the comment form */
 .comment-form-comment {
@@ -89,3 +91,53 @@
     border-color: #4F46E5; /* Border color on focus */
     box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1); /* Box shadow on focus */
 }
+
+/* Style for the button */
+.submit {
+    background-color: #7f54b3;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    padding: 0.5rem 1rem; /* Padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Transition */
+}
+
+/* Hover style for the button */
+.submit:hover {
+    background-color: #7249a4; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+
+/*---------------------------------------------------
+* Quantity Selector Styling
+----------------------------------------------------*/
+
+/* Remove default input styles */
+input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  /* Safari specific styling */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Base input styles */
+  input[type="number"] {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    color: #4a5568;
+    line-height: 1.25;
+    outline: none;
+  }
+  
+  /* Focus styles */
+  input[type="number"]:focus {
+    border-color: #667eea;
+  }
+  
