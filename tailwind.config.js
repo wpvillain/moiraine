@@ -14,6 +14,8 @@ const config = {
     //   'sm': '640px',
     //   'md': '768px',
     //   'lg': '1300px',
+    //   'xl': '1280x',
+    //   '2xl': '1536px'
     // },
     fontFamily: {
       'body': ['"Inconsolata"', 'Serif'],
