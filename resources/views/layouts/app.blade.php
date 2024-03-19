@@ -5,11 +5,11 @@
   @include('sections.header')
 
   @if(is_front_page())
-  @include('sections.hero')
+  {{--@include('sections.hero')--}}
   @endif
 
-    <div class="container">
-      <main id="main" class="main bg-white py-8">
+    <div class="container min-h-screen">
+      <main id="main" class="main bg-white px-8">
         <div class="container py-8 px-6 mx-auto">
           @yield('content')
         </div>
