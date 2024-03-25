@@ -67,6 +67,10 @@ export default async (app) => {
         padding: true,
         units: ['px', '%', 'em', 'rem', 'vw', 'vh'],
       },
+      layout: {
+        "contentSize": "60vw",
+        "wideSize":" 80vw"
+      },
       typography: {
         customFontSize: false,
       },
