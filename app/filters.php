@@ -49,3 +49,11 @@ add_filter('render_block', function ($block_content, $block) {
     // Returns altered $block_content to be rendered
     return $block_content;
 }, 10, 2);
+
+/**
+ * WooCommerce filter for product gallery to turn off image clicking
+ * @link https://woocommerce.github.io/code-reference/files/woocommerce-templates-single-product-product-thumbnails.html
+ */
+add_filter( 'woocommerce_single_product_image_thumbnail_html', function ($html, $post_id) {
+return preg_replace("!<(a|/a).*?>!", '', $html);
+}, 10, 2);
