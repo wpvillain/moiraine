@@ -1087,6 +1087,10 @@
         "vh"
       ]
     },
+    "layout": {
+      "contentSize": "60vw",
+      "wideSize": " 80vw"
+    },
     "typography": {
       "customFontSize": false,
       "fontFamilies": [
