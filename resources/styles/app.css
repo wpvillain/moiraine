@@ -59,6 +59,10 @@
     }
 }
 
+.woocommerce div.product form.cart .variations {
+    width: 75%;
+    }
+
 /*---------------------------------------------------
 * Comments
 ----------------------------------------------------*/
@@ -140,4 +144,14 @@ input[type="number"] {
   input[type="number"]:focus {
     border-color: #667eea;
   }
-  
+
+/*---------------------------------------------------
+* Cart Flow Color Swatches
+----------------------------------------------------*/
+
+  .cfvsw-swatches-container {
+    margin-bottom: 0.5rem;
+}
+/* .wp-block-cover .alignwide {
+    max-width: 80vw;
+    } */
