@@ -89,6 +89,15 @@ add_action('after_setup_theme', function () {
     add_theme_support('responsive-embeds');
 
     /**
+     * Enable WooCommerce Product Gallery Features
+     *
+     * @link https://github.com/woocommerce/woocommerce/wiki/Enabling-product-gallery-features-(zoom,-swipe,-lightbox)#
+     */
+    add_theme_support('wc-product-gallery-zoom');
+    add_theme_support('wc-product-gallery-lightbox');
+    add_theme_support('wc-product-gallery-slider');
+
+    /**
      * Enable HTML5 markup support.
      *
      * @link https://developer.wordpress.org/reference/functions/add_theme_support/#html5
