@@ -4,7 +4,14 @@ namespace App\View\Composers;
 
 use Roots\Acorn\View\Composer;
 use Log1x\Navi\Facades\Navi;
-
+/**
+ *  Navigation Composer
+ * @category Composer package
+ * @package  Navi
+ * @author   Brandon Nifong <brandon@tendency.me>
+ * @license  MIT
+ * @link     https://github.com/Log1x/navi
+ */
 class Navigation extends Composer
 {
     /**
